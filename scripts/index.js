@@ -67,7 +67,7 @@ document.querySelector("#srchBtn").addEventListener("click", () => {
     async function getData() {
         try {
             let movieName = document.querySelector("#search").value;
-            let url = `http://www.omdbapi.com/?apikey=df31b09f&t=${movieName}`;
+            let url = `https://www.omdbapi.com/?apikey=df31b09f&t=${movieName}`;
             let fetchedData = await fetch(url);
             let finalData = await fetchedData.json();
             movieCard(finalData);
@@ -110,7 +110,7 @@ function main() {
                 document.querySelector("#dropdown").style.visibility = "visible";
             }
 
-            let fetched = await fetch(`http://www.omdbapi.com/?apikey=df31b09f&s=${movieName}`);
+            let fetched = await fetch(`https://www.omdbapi.com/?apikey=df31b09f&s=${movieName}`);
             let data = await fetched.json();
             let finalData = data.Search;
             if (finalData === undefined) {
@@ -136,7 +136,7 @@ function main() {
                 console.log(movieName);
                 async function getData() {
                     try {
-                        let url = `http://www.omdbapi.com/?apikey=df31b09f&t=${movieName}`;
+                        let url = `https://www.omdbapi.com/?apikey=df31b09f&t=${movieName}`;
                         let fetchedData = await fetch(url);
                         let finalData = await fetchedData.json();
                         movieCard(finalData);

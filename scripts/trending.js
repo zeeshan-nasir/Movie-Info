@@ -79,7 +79,7 @@ document.querySelector("#query").addEventListener("input", () => {
                 document.querySelector("#dropdown").style.visibility = "visible";
             }
 
-            let fetched = await fetch(`http://www.omdbapi.com/?apikey=df31b09f&s=${movieName}`);
+            let fetched = await fetch(`https://www.omdbapi.com/?apikey=df31b09f&s=${movieName}`);
             let data = await fetched.json();
             let finalData = data.Search;
             if (finalData === undefined) {
