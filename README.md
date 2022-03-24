@@ -1,2 +1,10 @@
 # Movie-Info
-A two-page website where you can search about your favourite movies and check out the trending movies of the day. Build using HTML, CSS and JavaScript. In this, data is fetched using API's and I have also utilized concepts like debouncing and asynchronous JS.
+• A two-page website where you can search about your favourite movies and trending movies.
+• Solo project developed in 2 days. 
+Areas of responsibility:
+• Used the local storage and DOM effectively.
+• Added debouncing to search.
+Tech Stacks:
+• JavaScript
+• HTML
+• CSS
