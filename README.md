@@ -16,12 +16,13 @@
 <h1>Home Page</h1>
 
 <br>
-<img src="https://user-images.githubusercontent.com/93468404/165935183-b4ad7f1a-992b-4162-9bcd-c2fed8706f37.png">
+<img src="https://user-images.githubusercontent.com/93468404/165935612-825f4828-51b6-465c-91e2-40b18c48394c.png">
 <br>
 
 
 <h1>Store Page</h1>
 <img src="https://user-images.githubusercontent.com/93468404/165935190-e9960cab-e0ec-4140-a86a-de1b485cbdca.png">
-<br>
+<br>!
+
 <br>
 
